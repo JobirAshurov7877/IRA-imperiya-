@@ -1,0 +1,1575 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&display=swap');
+
+:root{
+     --text-black-color: #0E133A;
+     --text-grey-color:  #5B5D6D;
+     --text-white-color: #FFFFFF;
+     --background-blue: #1F33D8;
+     --background-yellow: #FFD456;
+
+     
+     --font-family-lato: 'Lato', sans-serif;
+     --font-family-inter: 'Inter', sans-serif;
+     --font-size-text: 16px;
+     --font-size-h1: 65px;
+     --font-size-h2: 45px;
+     --font-size-h3: 38px;
+     --font-size-h4: 22px;
+}
+a{
+     text-decoration: none;
+     color: inherit;
+}
+
+
+html{
+     scroll-behavior: smooth;
+}
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+body{
+     font-family: var(--font-family-lato);
+     color: var(--text-black-color);
+} 
+
+header{
+     width: 100%;
+     height: 816px;
+     padding: 0 120px;
+     background: #F4F5FA;
+}
+/* ================================ Navbar ================================*/
+.navbar{
+     position: fixed;
+     background: #F4F5FA;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     overflow: hidden;
+     z-index: 9;
+     margin-bottom: 200px;
+}
+.navbar li{
+     list-style: none;
+}
+.navbar .menuBar{
+     width: 25px;
+     margin-right: 10px;
+     display: none;
+}
+.navbar .closeBar{
+     display: none;
+}
+.navbar .logo{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 150px;
+}
+.responsiveNavlogo{
+     display: none;
+}
+.navbar .logo h1{
+     font-size: var(--font-size-text);
+}
+.navbar .logo img{
+     width: 42px;
+     height: 37px;
+}
+.navbar .nav__menu{
+     display: flex;
+     align-items: center;
+     width: 900px;
+     justify-content: space-between;
+}
+.navbar .nav__list{
+     display: flex;
+     justify-content: space-around;
+     width: 800px;
+}
+.navbar .nav__link{
+     font-size: var(--font-size-text);
+     color: var(--text-black-color);
+     font-weight: 500;
+}
+.navbar .language{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 45px;
+     cursor: pointer;
+}
+
+/* ================================ Navbar end ================================*/
+
+
+
+
+
+
+/* ================================ Main ================================*/
+.main{
+     width: 100%;
+     height: 600px;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 100px;
+     padding-top: 100px;
+}
+.main .contentBox{
+     width: 650px;
+     height: auto;
+}
+.main__header{
+     width: 100%;
+     height: 322px;
+}
+.main__header h4{
+     font-size: var(--font-size-h4);
+     font-weight: 600;
+}
+.main__header h1{
+     font-size: var(--font-size-h1);
+     margin-top: 40px;
+}
+.main__header p{
+     font-size: var(--font-size-text);
+     color: var(--text-grey-color);
+     margin-top: 40px;
+}
+.mainButtons{
+     display: flex;
+     justify-content: space-between;
+     width: 397px;
+     height: 60px; 
+     margin-top: 60px;   
+}
+.mainButtons a{
+     border-radius: 38px;
+     padding: 18px 56px;
+}
+.mainButtons .getStarted{
+     background: var(--background-blue);
+     color: var(--text-white-color);
+}
+.mainButtons .aboutUS{
+     background: rgba(31, 50, 216, 0.15);
+     color: #0E133A;
+}
+.main .imgBox{
+     width: 500px;
+}
+.main .mainImage{
+     margin-top: 80px;
+}
+.main .shadow{
+     margin-top: 50px;
+     margin-left: 0px;
+}
+/* Buy Section */
+.numbers{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 450px;
+     height: 70px;
+     margin-top: 55px;
+     margin-bottom: 20px;
+}
+.numbers .card{
+     display: flex;
+     height: 50px;
+     flex-direction: column;
+     justify-content: space-between;
+}
+.numbers .card h4{
+     font-size: var(--font-size-h4);
+}
+.numbers .card p{
+     font-size: var(--font-size-text);
+}
+/* ================================ Main end ================================*/
+
+
+/* For Buy section */
+.avlod{
+     width: 100%;
+     height: auto;
+     padding: 0 120px;
+}
+.avlod li{
+     margin-top: 10px;
+     font-size: var(--font-size-text);
+     font-weight: 600;
+}
+.avlod ol{
+     margin-left: 20px;
+}
+.avlod .title {
+     width: 60%;
+     margin: auto;
+     margin-top: 70px;
+}
+.avlod .title h2{
+     text-align: center;
+     font-size: var(--font-size-h2);
+}
+.avlod-container{
+     width: 100%;
+     margin-top: 70px;
+}
+.avlod .box2{
+     height: 300px;
+     margin-top: 20px;
+}
+
+
+
+
+
+/* ================================ Rectangle ================================*/
+.rectangle{
+     width: 100%;
+     height: 858px;
+     padding: 80px 120px;
+}
+.rectangle h2{
+     text-align: center;
+     font-size: var(--font-size-h2);
+}
+.rectangle-container{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 60px;
+}
+.rectangle .imgBox{
+     width: 450px;
+}
+.rectangle .imgBox h3{
+     font-size: var(--font-size-h3);
+     word-spacing: 10px;
+}
+.rectangle .imgBox img{
+     margin-top: 80px;
+}
+
+.rectangle .videoBox{
+     width: 800px;
+}
+.rectangle .videoBox-header{
+     width: 695px;
+     height: 104px;
+     margin-left: 80px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+.rectangle .videoBox-header p{
+     font-size: var(--font-size-text);
+     color: var(--text-grey-color);
+     line-height: 25px;
+}
+.rectangle .videoBox-header a{
+     font-size: var(--font-size-text);
+     color: var(--background-blue);
+     font-weight: 600;
+}
+.rectangle .videoBox-content{
+     margin-top: 60px;
+}
+.rectangle .videoBox-content :nth-child(2){
+     position: absolute;
+     margin-left: -525px;
+     margin-top: 240px;
+}
+.rectangle .button1{
+     position: absolute;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 21px 30px;
+     width: 264px;
+     height: 93px;
+     background: #0C20CB;
+     border-radius: 0px 46.5px 46.5px 0px;
+     margin-top: -250px;
+     color: var(--text-white-color);
+}
+.rectangle .button1 p{
+     font-size: 12px;
+}
+.rectangle .button1 h4{
+     font-size: var(--font-size-h4);
+     font-weight: 200;
+     margin-top: 10px;
+}
+.rectangle .button2{
+     position: absolute;
+     width: 92px;
+     height: 92px;
+     border-radius: 50%;
+     background: #0C20CB;
+     border: none;
+     cursor: pointer;
+     margin-top: -250px;
+     margin-left: 600px;
+}
+
+/* ================================ Rectangle end================================*/
+
+
+
+
+
+/* ================================ SECTION -Choose Your Wallets ================================*/
+.wallets{
+     width: 100%;
+     height: 600px;
+     padding: 0 120px;
+     margin-top: 75px;
+}
+.wallets h2{
+     text-align: center;
+     font-size: var(--font-size-h2);
+}
+.wallets-container{
+     margin-top: 80px;
+     display: flex;
+     justify-content: space-between;
+}
+.wallets-card{
+     width: 373px;
+     height: 462px;
+     border-radius: 15px;
+     padding: 45px 40px;
+     overflow: hidden;
+}
+.wallets .card-blue{
+     background: var(--background-blue);
+     color: var(--text-white-color);
+}
+
+/* card2 */
+.wallets .card-yellow{
+     background: var(--background-yellow) ;
+}
+.wallets .card-yellow .card-link{
+     width: 244px;
+     height: 60px;
+     background: var(--background-blue);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 0px 50px 50px 0px;
+     margin-top: 80px;
+     margin-left: -40px;
+}
+.wallets .card-yellow .shadow1{
+     margin-top: -430px;
+}
+/* card2 end */
+
+.wallets .card-title{
+     display: flex;
+     align-items: center;
+     width: 100%;
+     height: 50px;
+}
+
+.wallets .card-title h3{
+     font-size: var(--font-size-h3);
+     font-weight: 600;
+}
+.wallets .card-text{
+     width: auto;
+     height: auto;
+     margin-top: 37px;
+}
+.wallets .card-text p{
+     font-size: var(--font-size-text);
+     line-height: 25px;
+     font-weight: 100;
+}
+.wallets .card-icons{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 30px;
+     width: 96px;
+     height: 24px;
+}
+.wallets .card-link{
+     margin-top: 120px;
+}
+.wallets .card-link a{
+     font-size: 18px;
+     color: var(--text-white-color);
+}
+
+.wallets .card3 .card-link{
+     margin-top: 75px;
+}
+.wallets .card3 .shadow3{
+     margin-top: 18px;
+}
+
+
+
+.wallets .shadow1 , 
+.wallets .shadow2 ,
+.wallets .shadow3{
+     background: #00000021;
+}
+.wallets .shadow1{
+     width: 234px;
+     height: 113px;
+     border-radius: 56.5px;
+     margin-top: -410px;
+     margin-left: 160px;
+}
+.wallets .shadow2{
+     width: 120px;
+     height: 75px;
+     margin-top: 150px;
+     margin-left: 250px;
+     border-radius: 37.5px;
+
+}
+.wallets .shadow3{
+     width: 218px;
+     height: 62px;
+     border-radius: 31.5px;
+     margin-top: 15px;
+     margin-left: -115px;
+}
+/* ================================ SECTION -Choose Your Wallets END ================================*/
+
+
+
+
+
+/* ================================ SECTION - Quick Start Guide ================================*/
+.guide{
+     width: 100%;
+     height: 660px;
+     padding:  0 150px;
+     margin-top: 150px;
+}
+.guide h2{
+     text-align: center;
+     font-size: var(--font-size-h2);
+}
+.guide .box1,.guide .box2{
+     display: flex;
+     margin-top: 80px;
+}
+.guide .card{
+     width: 580px;
+     height: 240px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     margin-right: 50px;
+}
+.guide .card .image{
+     width: 160px;
+     height: 160px;
+     background: var(--background-yellow);
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.guide .card .content{
+     width: 277px;
+     height: 100px;
+}
+.guide .card .content h4{
+     font-size: var(--font-size-h4);
+     word-spacing: 5px;
+}
+.guide .card .content p{
+     color: var(--text-grey-color);
+     font-size: var(--font-size-text);
+     margin-top: 20px;
+     line-height: 25px;
+}
+
+/* ================================ SECTION - Quick Start Guide END ================================*/
+
+
+
+
+
+
+/* ================================ SECTION - Total Improvement  ================================*/
+.improvement{
+     width: 1200px;
+     height: 659px;
+     background: #001D31;
+     margin: auto;
+     padding: 40px;
+     margin-top: 120px;
+     color: var(--text-white-color);
+     border-radius: 8px;
+}
+.improvement h2{
+     text-align: center;
+     font-size: var(--font-size-h2);
+}
+.improvement h4{
+     font-size: var(--font-size-h4);
+     text-align: center;
+}
+.improvement p{
+     font-size: var(--font-size-text);
+}
+.improvement-container{
+     width: 100%;
+     height: 80%;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 80px;
+}
+.improvement .chartBox{
+     width: 45%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.improvement .contentBox{
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+.improvement .contentBox .content{
+     display: flex;
+     align-items: center;
+}
+.improvement .contentBox .content .color{
+     min-width: 22px;
+     min-height: 22px;
+     margin-right: 15px;
+     border-radius: 50%;
+}
+
+
+
+/* ================================ SECTION - Total Improvement END ================================*/
+
+
+
+
+/* ================================ SECTION -  Banner ================================*/
+.banner{
+     width: 1200px;
+     height: 444px;
+     margin: 100px auto 120px auto;
+     display: flex;
+     justify-content: space-between;
+}
+.banner .card{
+     height: 444px;
+     padding: 40px;
+     border-radius: 15px;
+     background: var(--background-blue);
+     color: var(--text-white-color); 
+     overflow: hidden;
+}
+.banner #card1{
+     width: 329px;
+     height: 462px;
+}
+.banner #card2{
+     width: 361px;
+     height: 462px;
+     background: var(--background-yellow);
+}
+.banner #card3{
+     width: 430px;
+     height: 462px;
+}
+.banner .card-title{
+     width: 95%;
+     font-size: var(--font-size-h3);
+     height: auto;
+}
+.banner .card-text{
+     background: inherit;
+     margin-top: 24px;
+}
+.banner .card-text p{
+     font-size: var(--font-size-text);
+     line-height: 27px;
+     font-weight: 600;
+}
+.banner .card  .imageBox{
+     width: 95%;
+     height: 118px;
+     margin-top: 24px;
+     display: grid;
+     place-items: center;
+} 
+.banner .card  .imageBox img{
+     width: 100%;
+     height: 100%;
+}
+.banner .card-link{
+     width: auto;
+     height: auto;
+     margin-left: -40px;
+     margin-top: 120px;
+
+}
+.banner .card-link a{
+     font-size: var(--font-size-text);
+     font-weight: 500;
+     padding: 16px 56px;
+     border-radius: 0px 38px 38px 0px;
+}
+.banner :nth-child(1) .card-link a,
+.banner :nth-child(3) .card-link a{
+     background-color: var(--background-yellow);
+     color: var(--text-black-color);
+}
+.banner :nth-child(2) .card-link a{
+     background: var(--background-blue);
+     color: var(--text-white-color);
+}
+.banner :nth-child(2) .card-text p{
+     color: var(--text-black-color);
+}
+.banner :nth-child(3) .card-link{
+     margin-top: 60px;
+}
+
+
+.banner .shadow1,
+.banner .shadow2,
+.banner .shadow3{
+     position: absolute;
+     background-color: rgba(0, 29, 49, 0.152);
+     z-index: 0;
+}
+.banner .shadow1{
+     width: 87px;
+     height: 50px;
+     border-radius: 25px 0 0 25px;
+     margin-top: -350px;
+     margin-left: 200px;
+}
+.banner #card2 .shadow1{
+     margin-left: 225px;
+     width: 97px;
+}
+.banner #card3 .shadow1{
+     width: 115px;
+     margin-left: 275px;
+}
+
+.banner .shadow2{
+     width: 154.71px;
+     height: 58px;
+     border-radius: 0 29px 29px 0;
+     margin-left: -40px;
+     margin-top: -230px;
+
+}
+.banner .shadow3{
+     width: 141px;
+     height: 83px;
+     position: relative;
+     border-radius: 41px;
+     margin-top: -20px;
+     margin-left: 180px;
+}
+.banner #card2 .shadow3{
+     width: 155px;
+     margin-left: 200px;
+}
+.banner #card3 .shadow3{
+     width: 184px;
+     margin-left: 250px;
+}
+/* ================================ SECTION - Banner END ================================*/
+
+
+
+
+
+
+
+/* ================================ SECTION - Network Statistic ================================*/
+.networkStatistic{
+     width: 100%;
+     height: 185px;
+}
+.networkStatistic-container{
+     width: 100%;
+     height: 174px;
+     background: var(--background-blue);
+     display: flex;
+     justify-content: space-evenly;
+}
+.networkStatistic .line{
+     width: 100%;
+     height: 11px;
+     background: var(--background-yellow);
+}
+.networkStatistic .box{
+     display: flex;
+     justify-content: space-around;
+     width: 50%;
+     height: 174px;
+}
+.networkStatistic .card{
+     color: var(--text-white-color);
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+}
+.networkStatistic .card p{
+     font-size: var(--font-size-text);
+}
+.networkStatistic .card h3{
+     font-size: var(--font-size-h3);
+     letter-spacing: 1.5px;
+}
+/* ================================ SECTION - Network Statistic END ================================*/
+
+
+
+
+
+
+/* ================================ SECTION - Footer ================================*/
+.footer{
+     width: 1200px;
+     height: 400px;
+     margin: auto;
+     margin-top: 70px;
+     margin-bottom: 50px;
+}
+.footer-container{
+     display: flex;
+     justify-content: space-between;
+}
+.footer .box{
+     display: flex;
+     justify-content: space-between;
+     width: 45%;
+     height: 320px;
+}
+.footer .box .card{
+     display: flex;
+     flex-direction: column;
+}
+.footer .card .title{
+     width: 150px;
+     height: 50px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 15px;
+}
+.footer .box .card p{
+     margin-bottom: 20px;
+     font-weight: 600;
+     font-size: var(--font-size-text);
+}
+.footer .box .card a{
+     margin-bottom: 15px;
+     font-size: var(--font-size-text);
+     color: var(--text-grey-color);
+}
+.footer .box .card a img{
+    transform: translateY(8px);
+    margin-right: 7px;
+}
+.footer .text,
+.footer .contact{
+     display: flex;
+     flex-direction: column;
+}
+.footer .line{
+     width: 100%;
+     height: 1px;
+     background: rgba(0, 0, 0, 0.4);
+}
+.footer .follow{
+     width: 100%;
+     height: 40px;
+     display: flex;
+     margin-top: 24px;
+     justify-content: space-between;
+     align-items: center;
+}
+.footer .follow .copyright{
+     font-size: var(--font-size-text);
+     color: var(--text-grey-color);
+}
+/* ================================ SECTION - Footer END ================================*/
+
+
+
+
+
+
+
+
+
+
+/* ========================================================== RESPONSIVE WEB DESIGN ============================================================*/
+@media (max-width: 1024px){
+     :root{
+          --font-size-text: 14px;
+          --font-size-h1: 50px;
+          --font-size-h2: 35px;
+          --font-size-h3: 28px;
+          --font-size-h4: 15px; 
+     }
+}
+@media (max-width: 768px){
+     :root{
+          --font-size-h1: 35px;
+          --font-size-h2: 27px;
+          --font-size-h3: 23px;
+          --font-size-h4: 15px; 
+          --font-size-text: 11px;
+     }
+}
+@media (max-width: 425px){
+     :root{
+          --font-size-h1: 32px;
+          --font-size-h2: 23px;
+          --font-size-h3: 16px;
+          --font-size-text: 9px;
+     }
+}
+
+
+
+/* ================================ RESPONSIVE Navbar ================================*/
+@media (max-width: 1275px){
+     .navbar .nav__menu{
+          width: 620px;
+     }
+     .navbar .nav__list{
+          width: 550px;
+     }
+}
+@media (max-width: 1024px){
+     .navbar .logo img{
+          width: 32px;
+          height: 27px;
+     }
+     .navbar .logo{
+          width: 130px;
+     }
+     .navbar .nav__menu{
+          width: 500px;
+     }
+     .navbar .nav__list{
+          width: 450px;
+     }
+     .navbar .language{
+          width: 30px;
+     }
+     .navbar .languageImg{
+          width: 17px;
+          height: 17px;
+     }
+     .navbar .language .dropdown{
+          width: 8px;
+          height: 8px;
+     }
+}
+@media (max-width: 880px){
+
+     header{
+          padding: 10px;
+          
+     }
+     .navbar{
+          height: 60px;
+     }
+     .navbar .logo {
+          width: 115px;
+     }
+     .navbar .logo img{
+          width: 25px;
+          height: 20px;
+     }
+     .navbar .nav__list{
+          position: fixed;
+          background-color: #FFFFFF;
+          width: 85%;
+          height: 100vh;
+          flex-direction: column;
+          justify-content: space-evenly;
+          top: 0;
+          left: -1000px;
+          text-align: center;
+          z-index: 9999;
+          transition: 0.2s linear;
+     }
+     .navbar .nav__list.showNavbar{
+          display: flex;
+          left: 0px;
+     }
+     .responsiveNavlogo{
+          display: block;
+     }
+     .navbar .nav__menu{
+          width: 50px;
+     }
+     .navbar .menuBar{
+          display: block;
+          cursor: pointer;
+     }
+     .navbar .closeBar{
+          cursor: pointer;
+          position: absolute;
+          display: block;
+          width: 35px;
+          top: 10px;
+          right: 0;
+     }
+     .overlay{
+          display: none;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.238);
+          transition: 0.5s linear;
+     } 
+     .overlay.showOverlay{
+          display: block;
+     }
+}
+@media (max-width: 425px){
+     .navbar .logo{
+          width: 90px;
+     }
+}
+/* ================================ RESPONSIVE Navbar end ================================*/
+
+
+
+
+/* ================================ RESPONSIVE main ================================*/
+@media (max-width: 1280px){
+     header{
+          height: auto;
+     }
+     .main{
+          flex-direction: column-reverse;
+          height: auto;
+          margin-top: 0;
+     }
+     .main .imgBox{
+          margin: 0 auto;
+          height: 450px;
+     }
+     .main .mainImage{
+          margin-left: 100px;
+          width: 300px;
+          height: 300px;
+     }
+     .main .shadow{
+         display: none;
+     }
+     .main .contentBox{
+          text-align: center;
+          margin: auto;
+          margin-top: 70px;
+     }
+     .main__header{
+          width: 100%;
+          margin: auto;
+     }
+     .mainButtons{
+          margin: auto;
+     }
+     .numbers{
+          margin: 50px auto;
+          
+     }
+}
+@media (max-width: 670px){
+     .main{
+          margin-top: 0px;
+     }
+     .main .imgBox{
+          margin: 0 auto;
+          width: 310px;
+          height: 310px;
+     }
+     .main .mainImage{
+          margin-top: 0;
+          margin-left: 75px;
+          width: 200px;
+          height: 200px;
+     }
+     .main .contentBox{
+          width: 310px;
+          margin-top: 0;
+     }
+     .mainButtons a{
+          border-radius: 38px;
+          padding: 12px 26px;
+          font-size: 13px;
+     }
+     .mainButtons{
+          width: 290px;
+          height: 40px;
+     }
+     .numbers{
+          width: 85%;
+     }
+}
+/* ================================ RESPONSIVE main end ================================*/
+
+
+/* ================================ RESPONSIVE Avlod================================*/
+@media (max-width: 661px){
+     .avlod{
+          padding: 0 20px;
+     }
+     .avlod .title {
+          width: 80%;
+     }
+     .avlod-container{
+          margin: auto;
+     }
+     .avlod .box2{
+          height: 230px;
+     }
+}
+/* ================================ RESPONSIVE Avlod end ================================*/
+
+
+/* ================================ RESPONSIVE Rectangle ================================*/
+@media (max-width: 1450px){
+     .rectangle{
+          margin-top: 50px;
+          height: auto;
+          padding: 0;
+     }
+     .rectangle-container{
+          flex-direction: column;
+          margin-top: 15px;
+     }
+     .rectangle .imgBox img{
+          margin-top: 50px;
+     }
+     .rectangle .imgBox{
+          margin: auto;
+          text-align: center;
+     }
+     .rectangle .videoBox{
+          margin: auto;
+          text-align: center;
+     }
+     .rectangle .videoBox-header{
+          margin: auto;
+     }
+     .rectangle .button1{
+          margin-left: 20px;
+     }
+     .rectangle .button2{
+          margin-left: 230px;
+     }
+}
+@media (max-width: 800px){
+     .rectangle .imgBox img{
+          margin-top: 50px;
+          width: 300px;
+     }
+
+     .rectangle .videoBox{
+          width: 600px;
+          margin: auto;
+     }
+     .rectangle .videoBox-header{
+          width: 100%;
+     }
+     .rectangle .videoBox .videoBox-content .image{
+          width: 100%;
+     }
+     .rectangle .button1{
+          width: 224px;
+          height: 75px; 
+          margin-top: -200px;
+          margin-left: 0;       
+     }
+     .rectangle .button2{
+          width: 65px;
+          height: 65px;
+          margin-top: -200px;
+          margin-left: 200px;
+     }
+     
+     .rectangle .button1 img,
+     .rectangle .button2 img{
+          width: 15px;
+     }
+     .rectangle .videoBox-content :nth-child(2){
+          width: 100px;
+          margin-top: 190px;
+          margin-left: -420px;
+     }
+}
+@media (max-width: 620px){
+     .rectangle .imgBox h3{
+          word-spacing: 2px;
+     }
+     .rectangle .imgBox{
+          width: auto;
+     }
+     .rectangle .imgBox img{
+          margin-top: 50px;
+          width: 200px;
+     }
+
+     .rectangle .videoBox{
+          width: 320px;
+          margin: auto;
+     }
+     .rectangle .videoBox-header{
+          width: 100%;
+     }
+     .rectangle .videoBox .videoBox-content .image{
+          width: 100%;
+     }
+     .rectangle .button1{
+          width: 100px;
+          height: 45px; 
+          margin-top: -120px;
+          margin-left: 0; 
+          padding: 20px 10px;    
+     }
+     .rectangle .button1__text p {
+          font-size: 7px;
+     }
+     .rectangle .button1__text h4 {
+          margin-top: 5px;
+          font-size: 11px;
+     }
+     .rectangle .button2{
+          width: 45px;
+          height: 45px;
+          margin-top: -120px;
+          margin-left: 100px;
+     }
+     
+     .rectangle .button1 img,
+     .rectangle .button2 img{
+          width: 8px;
+     }
+     .rectangle .videoBox-content :nth-child(2){
+          width: 55px;
+          margin-top: 100px;
+          margin-left: -220px;
+     }
+}
+/* ================================ RESPONSIVE Rectangle end ================================*/
+
+
+
+
+
+/* ================================ RESPONSIVE Choose Your Wallets  ================================*/
+@media (max-width: 1400px){
+     .wallets{
+          height: auto;
+          padding: 0;
+     }
+     .wallets-container{
+          flex-direction: column;
+          margin-top: 30px;
+     } 
+     .wallets-card{
+          margin: auto;
+          margin-top: 20px;
+     }
+}
+@media (max-width: 600px){
+     .wallets-card{
+          width: 250px;
+          height: 320px;
+          padding: 35px 30px;
+     }
+     .wallets .card-title{
+          margin-top: -15px;
+     }
+     .wallets .card-title img{
+          width: 37px;
+     }
+     .wallets .card-text{
+          margin-top: 15px;
+     }
+     .wallets .card-text p{
+          font-size: 12px;
+     }
+     .wallets .card-icons {
+          height: 20px;
+          margin-top: 20px;
+     }
+     .wallets .card-link{
+          margin-top: 50px;
+     }
+     .wallets .card-link a{
+          font-size: 14px;
+     }
+     /* card2 */
+     .wallets .card-yellow .card-link{
+          width: 170px;
+          height: 45px;
+          margin-top: 25px;
+     }
+     .wallets .card-yellow .shadow1{
+          margin-top: -300px;
+     }
+      /* card2  end*/
+
+      /* card3 */
+      .wallets .card3 .card-link{
+          margin-top: 30px;
+      }
+      .wallets .card3 .shadow1{
+          margin-top: -300px;
+      }
+      .wallets .card3 .shadow3{
+          margin-top: 10px;
+      }
+      /* crad3 end */
+
+     .wallets .shadow1{
+          width: 150px;
+          height: 60px;
+          margin-top: -272px;
+          margin-left: 130px;
+     }
+     .wallets .shadow2{
+          width: 100px;
+          height: 45px;
+          margin-left: 165px;
+     }
+     .wallets .shadow3{
+          height: 45px;
+          margin-top: -20px;
+          margin-left: -140px;
+     }
+}
+/* ================================ RESPONSIVE Choose Your Wallets end ================================*/
+
+
+
+
+
+/* ================================ RESPONSIVE  Quick Start Guide ================================*/
+@media (max-width: 1400px){
+     .guide{
+          height: auto;
+          padding: 0;
+          margin-top: 100px;
+     }
+     .guide .box1,.guide .box2{
+          flex-direction: column;
+          margin: 0;
+     }
+     .guide .card{
+          margin: auto;
+     }
+}
+@media (max-width: 768px){
+     .guide .card{
+          width: 300px;
+          height: 150px;
+          align-items: center;
+          justify-content: space-between;
+     }
+     .guide .card .image{
+          width: 100px;
+          height: 100px;
+     }
+     .guide .card .image img{
+          width: 100%;
+     }
+     .guide .card .content{
+          width: 180px;
+          height: 85px;
+     }
+     .guide .card .content p{
+          line-height: 15px;
+     }
+}
+/* ================================ RESPONSIVE  Quick Start Guide end ================================*/
+
+
+
+/* ================================ RESPONSIVE  Total Improvement  ================================*/
+@media (max-width: 1200px){
+     .improvement{
+          width: 100%;
+          height: auto;
+          padding: 50px 0;
+     }
+     .improvement-container{
+          flex-direction: column;
+
+     }
+     .improvement .chartBox{
+          margin: auto;
+     }
+     .improvement .contentBox{
+          margin: auto;
+          width: 100%;
+          height: 500px;
+          align-items: center;
+     }
+}
+@media (max-width: 500px){
+     .improvement .chartBox img{
+          width: 300px;
+     }
+     .improvement .contentBox .content{
+          height: 40px;
+          margin: auto;
+     }
+}
+/* ================================ RESPONSIVE  Total Improvement end ================================*/
+
+
+
+
+
+
+/* ================================ RESPONSIVE  Banner ================================*/
+@media (max-width: 1200px){
+     .banner{
+          width: 100%;
+          height: auto;
+          flex-direction: column;
+     }
+     .banner .card{
+          margin: auto;
+          margin-bottom: 25px;
+     }
+     
+     }
+@media (max-width: 768px){
+     .banner .card{
+          padding: 30px;
+     }
+     .banner #card1{
+          width: 270px;
+          height: 350px;
+     }
+     .banner #card2{
+          width: 290px;
+          height: 350px;
+          background: var(--background-yellow);
+     }
+     .banner #card3{
+          width: 300px;
+          height: 350px;
+     }
+     .banner .card-text{
+          margin-top: 10px;
+     }
+     .banner .card-link a{
+          padding: 13px 40px;
+     }
+     .banner .shadow1{
+          width: 60px;
+          height: 40px;
+          margin-top: -270px;
+     }
+     .banner #card1 .shadow1{
+          margin-left: 142px;
+          width: 97px;
+     }
+     .banner #card2 .shadow1{
+          margin-left: 162px;
+          width: 97px;
+     }
+     .banner #card3 .shadow1{
+          width: 115px;
+          margin-left: 155px;
+     }
+
+
+     .banner .shadow2{
+          width: 130px;
+          height: 45px;
+          border-radius: 0 29px 29px 0;
+          margin-left: -30px;
+          margin-top: -200px;
+     
+     }
+     .banner .shadow3{
+          width: 135px;
+          height: 55px;
+          position: relative;
+          border-radius: 41px;
+          margin-top: 0px;
+     }
+     .banner .card  .imageBox{
+          margin-top: 0px;
+     }
+     .banner #card3 .shadow3{
+          width: 184px;
+          margin-left: 200px;
+          margin-top: -30px;
+     }
+     .banner .card-link{
+          margin-top: 90px;
+     }
+     .banner :nth-child(3) .card-link{
+          margin-top: 30px;
+     }
+     .banner .card-title{
+          font-size: 23px;
+     }
+     .banner .card-text p,
+     .banner .card-link a{
+          font-size: 11px;
+     }
+}
+
+
+
+/* ================================ RESPONSIVE  Banner end ================================*/
+
+
+
+
+
+
+/* ================================ RESPONSIVE  networkStatistic-container ================================*/
+@media (max-width: 660px){
+     .networkStatistic{
+          height: auto;
+     }
+     .networkStatistic-container{
+          flex-direction: column;  
+          
+     }
+     .networkStatistic .box{
+          width: 100%;
+          justify-content: space-between;
+          padding: 0 20px;
+          margin-top: 20px;
+     }
+     .networkStatistic .line{
+          height: 5px;
+     }
+     .networkStatistic .card{
+          min-width: 197px;
+     }
+}
+@media (max-width: 420px){
+     .networkStatistic-container{
+          padding: 15px;
+     }
+     .networkStatistic .card{
+          min-width: 140px;
+     }
+     .networkStatistic .box{
+          padding: 0;
+     }
+}
+/* ================================ RESPONSIVE  networkStatistic-container end ================================*/
+
+
+
+
+
+
+/* ================================ RESPONSIVE  footer================================*/
+@media (max-width: 1200px){
+     .footer{
+          padding-left: 20px;
+          width: auto;
+          height: auto;
+     }
+     .footer-container{
+          flex-direction: column;
+     }
+    
+     .footer .box{
+          margin-top: 90px;
+          width: 100%;
+     }
+     .footer .box1{
+          width: 70%;
+     }
+     .footer .line ,
+     .footer .follow{
+          width: 555px;
+     }
+     .footer .box .card{
+          min-width: 185px;
+     }
+     .footer .card .title{
+          margin-top: -20px;
+     }
+
+}
+@media (max-width: 576px){
+     .footer{
+          width: auto;
+          padding-left: 0;
+     }
+     .footer .box{
+          width: 310px;
+          margin: auto;
+     }
+     .footer .box1{
+          width: 270px;
+          height: 250px;
+     }
+     .footer .box2{
+          height: 200px;
+     }
+     .footer .box .card{
+          min-width: 106px;
+     }
+     .footer .line ,
+     .footer .follow{
+          margin: auto;
+          width: 320px;
+     }
+     .footer .card .title{
+          width: 100px;
+          height: 20px;
+          margin-top: -3px;
+     }
+     .footer .title img{
+          width: 20px;
+     }
+     .footer .title{
+          width: 100%;
+     }
+     .footer .title h4{
+          font-size: 10px;
+     }
+     .footer .follow .messanger a img{
+          width: 20px;
+     }
+     .footer .contact a img{
+          width: 15px;
+     }
+}
+/* ================================ RESPONSIVE  footer end ================================*/
